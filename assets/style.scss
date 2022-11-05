@@ -1,0 +1,50 @@
+body {
+    .padre {
+
+        display: grid;
+        grid-template-areas: "nav nav nav"
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 card9";
+        grid-template-columns: 4, 1fr 1fr 1fr;
+        grid-template-rows: 3, 1fr 1fr 1fr;
+
+        .card {
+
+            margin: 20px;
+            padding: 2px;
+            border: solid black 2px;
+            box-shadow: 10px 5px 5px black;
+            border-radius: 8px;
+
+
+        }
+
+
+        .card1 {
+            display: grid;
+            grid-area: card1;
+
+        }
+
+        .card2 {
+            display: grid;
+            grid-area: card2;
+
+        }
+
+        .card3 {
+            display: grid;
+            grid-area: card3;
+        }
+
+    }
+.h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+    .sect {
+
+        width: 100%;
+    }
+}

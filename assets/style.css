@@ -1,0 +1,32 @@
+body .padre {
+  display: grid;
+  grid-template-areas: "nav nav nav" "card1 card2 card3" "card4 card5 card6" "card7 card8 card9";
+  grid-template-columns: 4, 1fr 1fr 1fr;
+  grid-template-rows: 3, 1fr 1fr 1fr;
+}
+body .padre .card {
+  margin: 20px;
+  padding: 2px;
+  border: solid black 2px;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 8px;
+}
+body .padre .card1 {
+  display: grid;
+  grid-area: card1;
+}
+body .padre .card2 {
+  display: grid;
+  grid-area: card2;
+}
+body .padre .card3 {
+  display: grid;
+  grid-area: card3;
+}
+body .h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+body .sect {
+  width: 100%;
+}
