@@ -5,18 +5,16 @@ body .padre {
   grid-template-rows: 3, 1fr 1fr 1fr;
 }
 body .padre .card {
-  height: 300px;
-  margin: 20px;
-  padding: 2px;
-  border: solid black 2px;
-  border-radius: 8px;
-  overflow: visible;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.75s;
+  height: 73%;
+  width: 100%;
 }
 body .padre .card .card-img-top {
-  height: 50%;
+  height: 70%;
+}
+body .padre .card .card-text {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 body .padre .card1 {
   display: grid;
