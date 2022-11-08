@@ -1,4 +1,5 @@
 body {
+   
     .padre {
 
         display: grid;
@@ -10,14 +11,21 @@ body {
         grid-template-rows: 3, 1fr 1fr 1fr;
 
         .card {
+            height: 300px;
 
             margin: 20px;
             padding: 2px;
             border: solid black 2px;
-            box-shadow: 10px 5px 5px black;
             border-radius: 8px;
-
-
+        
+            overflow: visible;
+            margin: 20px;
+            text-align: center;
+            transition: all 0.75s;
+             
+            .card-img-top{
+                height: 50%;
+            }
         }
 
 
@@ -37,14 +45,62 @@ body {
             display: grid;
             grid-area: card3;
         }
+         
+.card11{
+    display:grid;
+    
+    margin: auto;
+    padding: 2px;
+    border: solid black 2px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 8px;
+    
+    .card1 {
+        display: grid;
+        grid-area: card1;
 
     }
-.h2{
+
+    .card2 {
+        display: grid;
+        grid-area: card2;
+
+    }
+
+    .card3 {
+        display: grid;
+        grid-area: card3;
+    }
+     
+
+}    
+
+    }
+h2{
+   
+    font-size: xx-large;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    margin:20px;
+    padding: 20px;
 }
-    .sect {
 
-        width: 100%;
-    }
+h4{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:20px;
+    padding: 20px;
+
 }
+ .sect{
+    width: 100%;
+ }
+
+ .welcome{
+    width: 100%;
+    height: 50%;
+    
+ }
+}
+
