@@ -112,16 +112,7 @@ body {
 
 
     .formulario {
-       
-     box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-        margin-top: 1.6em;
-        margin-bottom: 0.9em;
-        overflow: hidden;
         border-radius: 8px;
-        will-change: transform;
-
-
-        image-rendering: optimizeQuality;
         padding: 2rem;
         margin-bottom: 1rem;
         font-style: 'Montserrat', sans-serif;
@@ -130,18 +121,13 @@ body {
         border-radius: 20px;
     }
 
-    .mapa {
-        border: black solid 4px;
-        border-radius: 5px;
-    }
-
-.NosotrosCarta{
-    width: auto;
-    opacity: 90%;
    
-    border: solid black 5px;
-    border-radius: 20px;
-font-size: xx-large;
-color: #252525
-}
+
+    .NosotrosCarta {
+        width: auto;
+        border: solid black 5px;
+        border-radius: 20px;
+        font-size: xx-large;
+        color: #252525
+    }
 }
