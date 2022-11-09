@@ -1,5 +1,5 @@
 body {
-   
+
     .padre {
 
         display: grid;
@@ -13,17 +13,18 @@ body {
         .card {
             height: 73%;
             width: 100%;
-            
 
-            .card-img-top{
+
+            .card-img-top {
                 height: 70%;
-                
+
             }
-            .card-text{
+
+            .card-text {
                 font-size: 20px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
-               
+
             }
         }
 
@@ -44,62 +45,93 @@ body {
             display: grid;
             grid-area: card3;
         }
-         
-.card11{
-    display:grid;
-    
-    margin: auto;
-    padding: 2px;
-    border: solid black 2px;
-    box-shadow: 10px 5px 5px black;
-    border-radius: 8px;
-    
-    .card1 {
+
+        .card11 {
+            display: grid;
+
+            margin: auto;
+            padding: 2px;
+            border: solid black 2px;
+            box-shadow: 10px 5px 5px black;
+            border-radius: 8px;
+
+            .card1 {
+                display: grid;
+                grid-area: card1;
+
+            }
+
+            .card2 {
+                display: grid;
+                grid-area: card2;
+
+            }
+
+            .card3 {
+                display: grid;
+                grid-area: card3;
+            }
+
+
+        }
+
+    }
+
+    h2 {
+
+        font-size: xx-large;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    h4 {
+        font-size: xx-large;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px;
+        padding: 20px;
+
+    }
+
+    .sect {
+        width: 100%;
+    }
+
+    .welcome {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    main {
         display: grid;
-        grid-area: card1;
-
+        place-content: center;
     }
 
-    .card2 {
-        display: grid;
-        grid-area: card2;
 
+    .formulario {
+       
+     box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+        margin-top: 1.6em;
+        margin-bottom: 0.9em;
+        overflow: hidden;
+        border-radius: 8px;
+        will-change: transform;
+
+
+        image-rendering: optimizeQuality;
+        padding: 2rem;
+        margin-bottom: 1rem;
+        font-style: 'Montserrat', sans-serif;
+        width: auto;
+        border: black solid 4px;
+        border-radius: 20px;
     }
 
-    .card3 {
-        display: grid;
-        grid-area: card3;
+    .mapa {
+        border: black solid 4px;
+        border-radius: 5px;
     }
-     
-
-}    
-
-    }
-h2{
-   
-    font-size: xx-large;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin:20px;
-    padding: 20px;
 }
-
-h4{
-    font-size: xx-large;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    margin:20px;
-    padding: 20px;
-
-}
- .sect{
-    width: 100%;
- }
-
- .welcome{
-    width: 100%;
-    height: 50%;
-    
- }
-}
-
