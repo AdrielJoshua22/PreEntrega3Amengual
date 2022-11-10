@@ -94,7 +94,7 @@ body .NosotrosCarta {
   font-size: xx-large;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   body .padre {
     display: grid;
     grid-template-areas: "card1" "card2" "card3" "card4" "card5" "card6";
@@ -103,6 +103,12 @@ body .NosotrosCarta {
   }
   body .padre {
     justify-content: center;
+  }
+  body .carrusel {
+    display: none;
+  }
+  body .mapa {
+    width: 400px;
   }
   body .card {
     justify-content: center;
