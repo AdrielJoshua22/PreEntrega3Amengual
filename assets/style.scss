@@ -139,7 +139,7 @@ body {
 
 $vista: mobile;
 
-body {
+body{
     @if $vista ==desktop {
         @media screen and (min-width:1024) {
             display: grid;
