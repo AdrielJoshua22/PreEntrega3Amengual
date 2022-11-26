@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+@import "tarjeta";
+
+
 body .padre {
   display: grid;
   grid-template-areas: "nav nav nav" "card1 card2 card3" "card4 card5 card6" "card7 card8 card9";
@@ -123,4 +126,19 @@ body .NosotrosCarta {
     text-align: center;
     font-family: "Montserrat", sans-serif;
   }
+}
+
+.btn-close{
+ 
+  background-color: red;
+}
+.btn {
+
+  display: flex;
+  justify-content: center;
+}
+
+.padre2{
+margin-top: 10%;
+padding: 20%;
 }
